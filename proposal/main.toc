@@ -1,0 +1,8 @@
+\contentsline {section}{Certificate of Approval}{i}{figure.caption.2}%
+\contentsline {section}{Copyright}{i}{chapter*.3}%
+\contentsline {section}{Acknowledgement}{ii}{chapter*.4}%
+\contentsline {section}{Abstract}{iii}{table.caption.6}%
+\contentsline {section}{Contents}{v}{chapter*.7}%
+\contentsline {section}{List of Tables}{v}{chapter*.8}%
+\contentsline {section}{List of Figures}{vii}{chapter*.9}%
+\contentsline {section}{List of Symbols and Abbreviation}{viii}{chapter*.10}%
