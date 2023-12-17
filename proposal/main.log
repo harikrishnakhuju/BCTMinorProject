@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.9)  8 DEC 2023 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.9)  17 DEC 2023 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,10 +563,10 @@ File: fc-english.def 2016/01/12
 \openout2 = `title.aux'.
 
  (title.tex
-<img/Khwopalogo.jpg, id=35, 101.178pt x 101.178pt>
-File: img/Khwopalogo.jpg Graphic file (type jpg)
-<use img/Khwopalogo.jpg>
-Package pdftex.def Info: img/Khwopalogo.jpg  used on input line 12.
+<Images/Khwopalogo.jpg, id=267, 101.178pt x 101.178pt>
+File: Images/Khwopalogo.jpg Graphic file (type jpg)
+<use Images/Khwopalogo.jpg>
+Package pdftex.def Info: Images/Khwopalogo.jpg  used on input line 12.
 (pdftex.def)             Requested size: 145.89404pt x 145.9015pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
@@ -587,14 +587,14 @@ Overfull \hbox (76.9221pt too wide) in paragraph at lines 26--33
 ) [1
 
 
-{C:/Users/Hari Krishna/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img
-/Khwopalogo.jpg>]
+{C:/Users/Hari Krishna/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Ima
+ges/Khwopalogo.jpg>]
 \openout2 = `title.aux'.
 
  (title.tex
-File: img/Khwopalogo.jpg Graphic file (type jpg)
-<use img/Khwopalogo.jpg>
-Package pdftex.def Info: img/Khwopalogo.jpg  used on input line 12.
+File: Images/Khwopalogo.jpg Graphic file (type jpg)
+<use Images/Khwopalogo.jpg>
+Package pdftex.def Info: Images/Khwopalogo.jpg  used on input line 12.
 (pdftex.def)             Requested size: 145.89404pt x 145.9015pt.
 
 Overfull \hbox (76.9221pt too wide) in paragraph at lines 26--33
@@ -713,23 +713,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--108
 
 [4
 
-] (main.toc)
+] (main.toc [5
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [5
-
-] (main.lot)
+ [6] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [6
+ [7
 
 ] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [7
+ [8
 
 ]
 ! Undefined control sequence.
@@ -746,30 +746,318 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--151
 [] 
  []
 
-[8])
+[9])
 \openout2 = `chapter/chapter_1.aux'.
 
+ (chapter/chapter_1.tex
+Chapter 1.
 
-No file chapter/chapter_1.tex.
+Overfull \hbox (1.20166pt too wide) in paragraph at lines 19--22
+\OT1/cmr/m/n/12 The cur-rent man-ual at-ten-dance track-ing sys-tem is prone to
+ er-rors, time-consuming,
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 
+      [1
+
+
+
+
+])
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17     \include{chapter/chapter_1}
+                                     [2]
 \openout2 = `chapter/chapter_2.aux'.
 
-No file chapter/chapter_2.tex.
+ (chapter/chapter_2.tex
+Chapter 2.
+
+LaTeX Warning: Citation `Iris' on page 3 undefined on input line 2.
+
+
+LaTeX Warning: Citation `radhika' on page 3 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Venkata' on page 3 undefined on input line 20.
+
+) [3
+
+
+
+
+]
 \openout2 = `chapter/chapter_3.aux'.
 
-No file chapter/chapter_3.tex.
+ (chapter/chapter_3.tex
+Chapter 3.
+[4
+
+
+
+
+] [5] [6]) [7]
 \openout2 = `chapter/chapter_4.aux'.
 
-No file chapter/chapter_4.tex.
+ (chapter/chapter_4.tex
+Chapter 4.
+<Images/UseCaseDiagram2.jpg, id=423, 1929.2075pt x 1226.5825pt>
+File: Images/UseCaseDiagram2.jpg Graphic file (type jpg)
+<use Images/UseCaseDiagram2.jpg>
+Package pdftex.def Info: Images/UseCaseDiagram2.jpg  used on input line 7.
+(pdftex.def)             Requested size: 312.62466pt x 198.76517pt.
+
+LaTeX Warning: File `Images/BlockDiagram.png' not found on input line 14.
+
+
+! Package pdftex.def Error: File `Images/BlockDiagram.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...th=.75\textwidth]{Images/BlockDiagram.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `Images/SequenceDiagram1.png' not found on input line 21.
+
+
+! Package pdftex.def Error: File `Images/SequenceDiagram1.png' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...75\textwidth]{Images/SequenceDiagram1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Images/classdiagram.jpg, id=424, 906.38625pt x 533.995pt>
+File: Images/classdiagram.jpg Graphic file (type jpg)
+<use Images/classdiagram.jpg>
+Package pdftex.def Info: Images/classdiagram.jpg  used on input line 28.
+(pdftex.def)             Requested size: 312.62466pt x 184.17958pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [8
+
+
+
+
+ <./Images/UseCaseDiagram2.jpg>] [9] [10 <./Images/classdiagram.jpg>]
 \openout2 = `chapter/chapter_5.aux'.
 
-No file chapter/chapter_5.tex.
+
+(chapter/chapter_5.tex
+Chapter 5.
+
+Overfull \hbox (14.30273pt too wide) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/17.28 SOFTWARE DE-VEL-OP-MENT AP-PROACH 
+ []
+
+
+LaTeX Warning: File `Images/softwarereq.jpg' not found on input line 12.
+
+
+! Package pdftex.def Error: File `Images/softwarereq.jpg' not found: using draf
+t setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...th=0.75\textwidth]{Images/softwarereq.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[11
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
+[12]
+
+LaTeX Warning: File `Images/System-architecture-of-the-face-recognition-system 
+(1).png' not found on input line 60.
+
+
+! Package pdftex.def Error: File `Images/System-architecture-of-the-face-recogn
+ition-system (1).png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...re-of-the-face-recognition-system (1).png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61     \caption
+                 {Caption}
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63 \end{figure}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.63 \end{figure}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.63 \end{figure}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.63 \end{figure}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{[} on input line 58 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[13]
+Overfull \hbox (56.0838pt too wide) in paragraph at lines 87--93
+\OT1/cmr/m/n/12 cade[]frontalface[]default. We are us-ing a file called [][]\OT
+1/cmtt/m/n/12 haarcascade_frontalface_default.xml[]\OT1/cmr/m/n/12 .
+ []
+
+
+Overfull \hbox (116.28844pt too wide) in paragraph at lines 87--93
+\OT1/cmr/m/n/12 )  \OT1/cmr/m/it/12 face[]classifier = cv2.CascadeClassifier(cv
+2.data.haarcascades + "haar-cas-cade[]frontalface[]default.xml") 
+ []
+
+) [14]
 \openout2 = `chapter/chapter_6.aux'.
 
-No file chapter/chapter_6.tex.
+ (chapter/chapter_6.tex
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/12 Support Vec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\OT1/cmr/m/n/12 tor Ma-chines
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/12 Multilayer Per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]\OT1/cmr/m/n/12 Convolutional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/12 Neu-ral Net-
+ []
+
+[15
+
+
+
+
+]
+Chapter 7.
+) [16
+
+]
 \openout2 = `appendix.aux'.
 
-No file appendix.tex.
+ (appendix.tex)
 No file main.bbl.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 26.
+
+
+! LaTeX Error: \begin{center} on input line 7 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 (main.aux (title.aux) (title.aux) (intro.aux) (chapter/chapter_1.aux)
 (chapter/chapter_2.aux) (chapter/chapter_3.aux) (chapter/chapter_4.aux)
 (chapter/chapter_5.aux) (chapter/chapter_6.aux) (appendix.aux))
@@ -777,24 +1065,36 @@ No file main.bbl.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9615D087BE627D8111D9755BC889C4EE;1014.
- ) 
+(rerunfilecheck)             Checksum: C346018B1A4F1824D02529D3FD8665D3;10194.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 7 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 12933 strings out of 475247
- 211493 string characters out of 5754452
- 1926785 words of memory out of 5000000
- 34203 multiletter control sequences out of 15000+600000
- 567833 words of font info for 73 fonts, out of 8000000 for 9000
+ 13253 strings out of 475247
+ 220777 string characters out of 5754452
+ 1932785 words of memory out of 5000000
+ 34419 multiletter control sequences out of 15000+600000
+ 568339 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1012b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb><C:/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Hari Krishna/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (10 pages, 869818 bytes).
+ 75i,9n,79p,1012b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Hari Krishna\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\tcrm1200.pk><C:/Users/Hari Krishna/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Hari Krishna/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Hari Kri
+shna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmti12.pfb><C:/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (27 pages, 1210651 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 528 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 544 words of extra memory for PDF output out of 10000 (max. 10000000)
 
