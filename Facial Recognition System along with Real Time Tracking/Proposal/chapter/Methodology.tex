@@ -1,0 +1,157 @@
+\chapter{Methodology}
+\section{Software Development Methodology}
+Aniterative and incremental software development approach, such as Agile method
+ology, can be adopted. Agile methodologies emphasize flexibility, collaboration,
+and iterative development, which align well with the nature of the project and its
+potential changes and refinements.\\
+
+\subsection{Agile Methodology}
+Agile development is a flexible and iterative approach to software development that prioritizes adaptability and collaboration. It emphasizes delivering small, incremental releases of a product with the goal of responding quickly to changing requirements and feedback. Agile methodologies are based on the Agile Manifesto, which values individuals and interactions, working solutions, customer collaboration, and responding to change over rigid processes and tools.\\
+
+The Agile development process is typically organized into iterations or sprints, each of which includes the following key steps:\\
+\begin{itemize}
+
+  \item \textbf{Requirements}:
+        In Agile, requirements are expressed as user stories, which are short descriptions of a feature told from the perspective of the end user.
+        Typically, the product owner collaborates with stakeholders to define and prioritize user stories, which in our case, are the objectives and highlights of the problem statement. These stories are added to the product backlog.
+
+  \item \textbf{Design}:
+        Design involves planning how the requirements will be implemented, considering the overall architecture, user interface, and other relevant aspects.
+        During sprint planning, the development team discusses and plans how to address the problem statements and achieve the objectives. Design decisions are made collaboratively, and the team may create mockups or prototypes to visualize the solution.\\
+  \item \textbf{Development}:
+        This phase involves coding or implementing the solutions outlined in the design phase.
+        Development work is carried out based on the tasks assigned to team members during the sprint planning. Continuous collaboration and communication are crucial to address any issues or changes that may arise.\\
+
+  \item \textbf{Testing}:
+        Testing is an integral part of Agile development and involves validating that the implemented features meet the specified requirements.
+        Testing will be done parallely with development, creating test cases based on user stories and conducting various testing types (unit testing, integration testing, etc.) to ensure the quality of the code and output.\\
+
+  \item \textbf{Deploy}:
+        Deployment involves making the developed features available for use by end-users.
+        The product increment is deployed to a staging or production environment. Continuous integration and deployment practices ensure that the latest changes are automatically integrated and deployed when ready.\\
+
+
+  \item \textbf{Review}:
+        At the end of each iteration, a review or demo is conducted to showcase the completed features to stakeholders.
+        The team will participate in a review meeting to provide feedback, discuss any adjustments needed, and reprioritize the product backlog.\\
+
+  \item \textbf{Lauch}:
+        The final step involves releasing the product increment to users. In our project, a web interface will be rolled at launch which will facilitate user interaction.
+        Once all necessary adjustments are made based on feedback and the priorities based on objectives the product is officially launched. The cycle then repeats with a new iteration.\\
+\end{itemize}
+
+It's important to note that the design, development, testing, deployment, review, and launch steps occur iteratively and multiple times throughout the project. Agile development promotes continuous improvement and adaptation to changing requirements, allowing teams to deliver value to users more frequently and efficiently.\\
+
+    
+        \section{ALGORITHMS AND MODELS}
+        
+Facial recognition systems rely on various algorithms and models to accurately identify and verify individuals based on facial features. Here are some common algorithms and models used in facial recognition systems:
+
+\subsection{Haar Cascades}
+\begin{enumerate}
+    \item Description: Haar Cascades is an object detection algorithm used for identifying faces in images or video streams. It works by training on positive and negative images to create a classifier.
+\item Application: Initial face detection before more detailed analysis.
+\end{enumerate}
+
+ \subsection{Local Binary Patterns }
+   \begin{itemize}
+           \item Description: LBP is a texture descriptor that is often used for facial feature extraction. It focuses on local patterns of pixel intensities.
+\item Application: Feature extraction in facial recognition systems.
+
+   \end{itemize}
+
+
+
+\subsection{Eigenfaces}
+\begin{enumerate}
+    \item Description: Eigenfaces is a facial recognition algorithm that uses Principal Component Analysis  to represent facial features in a lower-dimensional space
+\item Application: Recognizing faces based on principal components.
+\end{enumerate}.
+
+\subsection{Local Feature Analysis }
+\begin{enumerate}
+    \item Description: LFA focuses on extracting local features, considering facial regions independently. It enhances robustness against variations.
+    \item Application: Effective in handling facial variations due to expressions, pose, and lighting.
+\end{enumerate}
+
+\subsection{Convolutional Neural Networks}
+\begin{enumerate}
+    \item Description: CNNs are deep learning models that automatically learn hierarchical features from raw pixel data. They excel at capturing spatial hierarchies in images.
+\item Application: State-of-the-art facial recognition, especially when dealing with large datasets and complex variations.
+\end{enumerate}
+
+\section{Proposed System}
+This system will be able to detect student or employee without physical contact and update the database based on the response from system.
+The  system  architecture  of  the  proposed  system  is  given below, 
+\newline
+
+\begin{figure}[ht]
+    \centering
+   % \includegraphics[scale=0.5]{Images/System-architecture-of-the-face-recognition-system (1).png}
+    \caption{System architecture of face recognition system}
+    \label{fig:enter-label}
+\end{figure}
+
+  \subsection{Dataset Creation and Image Preprocessing}
+  
+ Images of Employee or student are captured using a web cam. Multiple images of single student will be acquired with varied gestures and  angles.  These  images  undergo  pre-processing.  The images  are cropped  to obtain  the  Region of  Interest (ROI) which will be further used in recognition process. Then these  images  will  be  converted  from  RGB  to  gray  scale images. This is done using OpenCV. 
+\begin{enumerate}
+    \item Step1: we need to read the image with OpenCV’s imread() function:
+    \\
+  \emph{img = cv2.imread(imagePath)} \\
+    This will load the image from the specified file path and return it in the form of a Numpy array. \\
+   \emph{img.shape} \\
+    Output:\\
+    (1000,500,4)
+    \item Step2: Convert the RGB data of Image into Greyscale
+    To improve computational efficiency, we first need to convert this image to grayscale before performing face detection on it:
+    Code \\
+   \emph{gray\_image = cv2.cvtColor(img, cv2.COLORBGR2\_GRAY)} 
+    Output:
+    \\
+    (1000,500)\\
+    This array only has two values since the image is grayscale and no longer has the third color channel.
+\end{enumerate}
+
+  \subsection{Face Detection}
+The idea behind this technique involves using a cascade of classifiers to detect different features in an image. Haar Cascade algorithm needs to be trained to  detect human  faces before it can be used for  face detection. This is called feature extraction. The haar cascade training  data  used  is  an  xml  file- haarcascade\_frontalface\_default. We are using a file called \verb|haarcascade_frontalface_|\linebreak\verb|default.xml|.
+This classifier is designed specifically for detecting frontal faces in visual input. \emph{face\_classifier = cv2.CascadeClassifier(cv2.data.haarcascades +"haarcascade\_ frontalface\_default.xml")}. We are using detectMultiScale module from OpenCV. This is required to create a rectangle around  the faces  in an image.  It has got three  parameters to  consider-  scaleFactor, minNeighbors, minSize.
+
+\subsection{Face Recognition and Calculation}
+ Face recognizer  used  in  this  system  is  Local  Binary  Pattern Histogram. Initially, the list of local binary patterns (LBP) of entire  face  is  obtained.  These  LBPs  are  converted  into decimal  number  and  then  histograms  of  all  those  decimal values are made.  At the  end, one  histogram will  be formed for each images in the training data. Later, during recognition process histogram  of the  face to  be recognized  is calculated and then compared with the already computed histograms and returns the  best matched label associated .
+
+ \subsection{DataBase}
+ After face recogition process,Based on Calculated histogram Databases are updated .The name of employee or student along with day and time of
+attendance is also be stored in the database.
+
+
+	\section{System (or Project) Design and Architecture}
+	    We developed a Facial Recognition Attendance System which takes Face image
+as its input and process it to provide the value of matching face as its output. Then, it take decision of present and absent person.
+        \section{USE CASE DIAGRAM}
+          \begin{figure}[hbt]
+		    \centering
+%		      \includegraphics[scale=0.3]{Image/UseCaseDiagram.jpg}
+			    \caption{System Use Case Diagram}
+			\end{figure}
+			\newpage
+        \section{System Block}
+        	\begin{figure}[h]
+		    \centering
+	%		    \includegraphics[scale=0.5]{Image/BlockDiagram.jpg}
+			    \caption{System Block Diagram}
+			\end{figure}
+			
+   \section{Sequence Diagram}
+       \begin{figure}[hbt]
+		    \center
+		%	    \includegraphics[scale=0.5]{Image/SequenceDiagram1.png}
+			    \caption{Sequence Diagram}
+		\end{figure}
+\newpage
+   \section{Class Diagram}
+       \begin{figure}[hbt]
+		    \centering
+			%    \includegraphics[scale=0.5]{Image/classdiagram.jpg}
+			    \caption{Class Diagram}
+		\end{figure}

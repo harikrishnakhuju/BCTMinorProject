@@ -1,0 +1,60 @@
+    \chapter{Literature Review}
+In this paper, authors  have used deep learning methods for the fiducial points extraction and embedding. The best results were obtained using a customized architecture of residual network with $18$ layers, drastically reducing the number of parameters from $19$M to $700$k. Support Vector Machine (SVM) is used for classification task since it is fast for both training and inference. The system achieved an error rate of $0.12103$ for facial features detection. This system had competitive accuracy ($0.95\pm 0.13$), runs in real-time ($23.23 \pm 0.60$ fps)\cite{DeepLearningBasedFacialRecogition}.
+
+In order to achieve real-time detection performance on embedded systems with limited computing power,this paper used one stage detector YOLOv$3$ algorithm to achieve face recognition,and some experimental optimizations are made for the YOLOv$3$ algorithm depend on the task.They optimized the computational efficiency using TensorRT.TensorRT is a C++ library from NVIDIA;it is used for high-performance inference on NVIDIA GPUs and deep learning accelerators.They used an Nvidia GTX $1080$ Ti GPU to train the model through the Darknet framework$31$ in an Ubuntu $18.04$ environment. During training, They used the SGD with a batch size of $16$, the momentum and weight decay are respectively set as $0.95$ and $0.005$, and adopt batch normalization \cite{UsingCNNandPID}.
+
+This paper proposes a multi-target real-time detection, tracking, and recognition algorithm,
+which includes three strategies: fast detection, fast-tracking, and quick recognition. First, the
+human faces are detected by a rapid detection strategy, and MMFNet is used to extract features
+quickly. Finally, fast face tracking through FTNet. The algorithm avoids the repeated detection and recognition of the same target, and the tracking is stable. It successfully converts the multi-target scene into a single target scene. FTNet achieved high tracking accuracy on OTB and 300VW,
+ and the tracking speed reached $102$fps on the Xiph and camera data test set, which improved the tracking speed while ensuring high tracking accuracy. Although MMFNet has reduced efficiency in face recognition, the model size reduced by $45$\%, and the recognition speed has increased by $25$\%. The experimental results indicate that the strategy proposed in this paper balances out the problem of time-consuming multi-target tracking and detection in multi-target scenarios. It has sufficient accuracy and real-time performance in detecting and
+identifying human faces in multi-target scenes\cite{LiWangFangZeng2020}.
+
+In this thesis a system was proposed and implemented to perform real time facial detection and recognition using a drone, in conjunction with a computer, to find and track a specified target individual. The facial recognition systems were found to be the key component of the entire system, so three different facial recognition systems were implemented to quantify their performance. All though, the different facial recognition systems had varying strengths and weaknesses, FaceNet performed best when the system was tested in a real-world setting. The results of this thesis indicate that using facial recognition algorithms in conjunction with a drone with the goal of tracking an individual is possible. Even when using low cost, light weight drones, facial recognition is possible by having the drone stream video to a computer powerful enough to handle facial recognition. By streaming video to a computer, this system solved many of the performance issued mentioned in papers that implemented similar systems [2;7]. There exist extraneous factors which limit the capabilities of this system; but it served as a strong foundation that can be built upon \cite{FacialRecognitionAndTrackingWithDrone}.
+
+In this paper, we implement a real-time surveillance 
+consist of face recognition and invader tracking which based 
+on OpenCV. OpenCV provides a set of open source 
+programming libraries which suitable for real-time 
+surveillance system. In this paper, we propose to use 
+AdaBoost Cascade combined with skin model for face 
+detection and then in order to recognize the candidate faces, 
+they will be analyzed by the hybrid Wavelet and LDA method. 
+After that, Mean shift and Kalman filter will be invoked to 
+track the face. The user interface provides the current state, 
+camera view and records for cross-platform user. The 
+experimental results show that the algorithm has quite good 
+performance in terms of real-time and accuracy \cite{ChaoYangAndChao}.
+
+Biometric systems are structures that have been often used in 
+recent years. This biometric system is based on the use of 
+some physiological features of the person for security. It is 
+predicted that biometric systems will be an indispensable 
+part of the information security systems in the coming years. 
+Thus, people won’t have to carry cards and/or memorize 
+their own passwords. 
+In this study, a biometric system for human face detection
+and recognition is put into practice. This system put into 
+practice works real time and successfully carries out face 
+recognition, detection and tracking. In this way, the system 
+has the feature of being integrated into different practices. In 
+this study, face detection and tracking system, is put into 
+practice in a personal automation. Here, the aim is to carry 
+out personnel’s entry and exit automatically and safely. In 
+this system practiced basing on PCA, in the future studies, 
+various optimization algorithms can be used in order to 
+increase system performance \cite{MuhammetAndDas}.
+
+It has been certainly made out from the result and analysis that 
+the proposed work has provided a better implementation of the 
+current algorithms with integration of the modified work. The 
+proposed work of tracking people in live video is just small 
+part of the much larger picture. Compared to legacy systems, 
+assay of facial expressions can help expedite a lot of manual 
+labor that goes into the respective area of work, unnecessarily. 
+Similar approach can be used to further develop system which 
+detect crimes, identify mood of people, security systems, etc. 
+Live Subject tracking, Facial Recognition and Analysis is a 
+much deeper subject which provides immense research 
+opportunities and also development for the greater good of the 
+society \cite{ReddyLokeJaniDabre2018}.
