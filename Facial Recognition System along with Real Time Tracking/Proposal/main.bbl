@@ -1,44 +1,43 @@
-\newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{LWFZ20}
+\begin{thebibliography}{1}
 
-\bibitem[BD13]{MuhammetAndDas}
+\bibitem{MuhammetAndDas}
 Muhammet Baykara and Resul Das.
 \newblock Real time face recognition and tracking system.
 \newblock pages 159--163, 11 2013.
 
-\bibitem[LCSH22]{UsingCNNandPID}
-Teh‐Lu Liao, Hsin-Chieh Chen, Qing-Huang Song, and Yi‐You Hou.
-\newblock Face recognition and real-time tracking system based on convolutional
-  neural network and parallel-cascade pid controller.
-\newblock {\em Measurement and Control}, 55(7–8):616–630, July 2022.
-
-\bibitem[LLC{\etalchar{+}}10]{ChaoYangAndChao}
-Shou-Jen Lin, Chao-Yang Lee, Mei-Hsuan Chao, Chi-Sen Chiou, and Chu-Sing Yang.
-\newblock The study and implementation of real-time face recognition and
-  tracking system.
-\newblock In {\em 2010 International Conference on Machine Learning and
-  Cybernetics}, volume~6, pages 3050--3055, 2010.
-
-\bibitem[LWFZ20]{LiWangFangZeng2020}
+\bibitem{LiWangFangZeng2020}
 Jun Li, Yaoru Wang, Guokang Fang, and Zhihui Zeng.
 \newblock Real-time detection tracking and recognition algorithm based on
   multi-target faces.
 \newblock {\em Multimedia Tools and Applications}, 80(11):17223–17238, August
   2020.
 
-\bibitem[MM23]{FacialRecognitionAndTrackingWithDrone}
+\bibitem{UsingCNNandPID}
+Teh‐Lu Liao, Hsin-Chieh Chen, Qing-Huang Song, and Yi‐You Hou.
+\newblock Face recognition and real-time tracking system based on convolutional
+  neural network and parallel-cascade pid controller.
+\newblock {\em Measurement and Control}, 55(7–8):616–630, July 2022.
+
+\bibitem{ChaoYangAndChao}
+Shou-Jen Lin, Chao-Yang Lee, Mei-Hsuan Chao, Chi-Sen Chiou, and Chu-Sing Yang.
+\newblock The study and implementation of real-time face recognition and
+  tracking system.
+\newblock In {\em 2010 International Conference on Machine Learning and
+  Cybernetics}, volume~6, pages 3050--3055, 2010.
+
+\bibitem{FacialRecognitionAndTrackingWithDrone}
 Artak Melkumyan and Katya Mkrtchyan.
 \newblock Real time facial recognition and tracking system using drones.
-\newblock In {\em 2023 IEEE 20th Consumer Communications & Networking
+\newblock In {\em 2023 IEEE 20th Consumer Communications and Networking
   Conference (CCNC)}, pages 975--976, 2023.
 
-\bibitem[PQA18]{DeepLearningBasedFacialRecogition}
+\bibitem{DeepLearningBasedFacialRecogition}
 Wesley~L. Passos, Igor~M. Quintanilha, and Gabriel~M. Araujo.
 \newblock Real-time deep-learning-based system for facial recognition.
 \newblock {\em Anais De XXXVI Simpósio Brasileiro De Telecomunicações E
   Processamento De Sinais}, January 2018.
 
-\bibitem[RLJD18]{ReddyLokeJaniDabre2018}
+\bibitem{ReddyLokeJaniDabre2018}
 K.~Bharath~S Reddy, Onkar Loke, Shantanu Jani, and Kanchan Dabre.
 \newblock Tracking people in real time video footage using facial recognition.
 \newblock {\em 2018 International Conference on Smart City and Emerging

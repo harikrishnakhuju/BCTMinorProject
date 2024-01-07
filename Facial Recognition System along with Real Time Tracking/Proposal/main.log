@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.9)  7 JAN 2024 01:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.9)  7 JAN 2024 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,22 +593,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--17
  (chapter/Introduction.tex
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--22
-
- []
-
-
-Overfull \hbox (1.20166pt too wide) in paragraph at lines 24--27
-\OT1/cmr/m/n/12 The cur-rent man-ual at-ten-dance track-ing sys-tem is prone to
- er-rors, time-consuming,
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 
+l.30 
       [1
 
 
@@ -619,8 +608,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18     \include{chapter/Introduction}
-                                        [2]
+l.18 \include{chapter/Introduction}
+                                    [2]
 \openout2 = `chapter/Literature.aux'.
 
  (chapter/Literature.tex
@@ -641,8 +630,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19     \include{chapter/Literature}
-                                      [4]
+l.19 \include{chapter/Literature}
+                                  [4]
 \openout2 = `chapter/Feasibility.aux'.
 
  (chapter/Feasibility.tex
@@ -664,8 +653,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20     \include{chapter/Feasibility}
-                                       [6]
+l.20 \include{chapter/Feasibility}
+                                   [6]
 \openout2 = `chapter/Methodology.aux'.
 
  (chapter/Methodology.tex
@@ -725,23 +714,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 84--87
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
-[9]
-Overfull \hbox (4.83516pt too wide) in paragraph at lines 117--119
+[10]
+<Image/System-architecture-of-the-face-recognition-system (1).png, id=249, 693.
+59125pt x 519.9425pt>
+File: Image/System-architecture-of-the-face-recognition-system (1).png Graphic 
+file (type png)
+<use Image/System-architecture-of-the-face-recognition-system (1).png>
+Package pdftex.def Info: Image/System-architecture-of-the-face-recognition-syst
+em (1).png  used on input line 133.
+(pdftex.def)             Requested size: 346.79477pt x 259.97061pt.
+ [11 <./Image/System-architecture-of-the-face-recognition-system (1).png (PNG c
+opy)>]
+Overfull \hbox (4.83516pt too wide) in paragraph at lines 160--162
 \OT1/cmr/m/n/12 vi-sual in-put. \OT1/cmr/m/it/12 face[]classifier = cv2.Cascade
 Classifier(cv2.data.haarcascades +"haar-
  []
 
-[10] [11] [12]) [13]
+) [12]
 \openout2 = `chapter/Implementation.aux'.
 
  (chapter/Implementation.tex
 Chapter 5.
-<Image/Gantt-Chart.jpg, id=253, 659.46375pt x 218.9781pt>
+<Image/Gantt-Chart.jpg, id=261, 659.46375pt x 218.9781pt>
 File: Image/Gantt-Chart.jpg Graphic file (type jpg)
 <use Image/Gantt-Chart.jpg>
 Package pdftex.def Info: Image/Gantt-Chart.jpg  used on input line 6.
@@ -751,12 +750,12 @@ Overfull \hbox (9.95845pt too wide) in paragraph at lines 6--7
 [][] 
  []
 
-[14
+[13
 
 
 
 
- <./Image/Gantt-Chart.jpg>] [15]) [16] [17]
+ <./Image/Gantt-Chart.jpg>] [14]) [15]
 \openout2 = `chapter/Outcomes.aux'.
 
  (chapter/Outcomes.tex
@@ -796,71 +795,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--19
 
  []
 
-) [18
+) [16
 
 
 
 
-] (main.bbl
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin{thebibliography}{LWFZ20}
-                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Misplaced alignment tab character &.
-l.32 ...m 2023 IEEE 20th Consumer Communications &
-                                                   Networking
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) [19
+] (main.bbl) [17
 
 
 
-] (main.aux (title.aux) (intro.aux) (chapter/Introduction.aux)
-(chapter/Literature.aux) (chapter/Feasibility.aux) (chapter/Methodology.aux)
-(chapter/Implementation.aux) (chapter/Outcomes.aux))
+] (main.aux (title.aux) (intro.aux)
+(chapter/Introduction.aux) (chapter/Literature.aux) (chapter/Feasibility.aux)
+(chapter/Methodology.aux) (chapter/Implementation.aux) (chapter/Outcomes.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 12551 strings out of 475247
- 206089 string characters out of 5754452
+ 12570 strings out of 475247
+ 206664 string characters out of 5754452
  1931785 words of memory out of 5000000
- 33754 multiletter control sequences out of 15000+600000
+ 33762 multiletter control sequences out of 15000+600000
  568339 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1291b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1287b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Hari Krishna\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
 00\tcrm1200.pk><C:/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmbx12.pfb><C:/Users/Hari Krishna/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Hari Krishna/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Hari Kr
-ishna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb><C:/Users/Hari Krishna/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (25 pages, 1123265 bytes).
+ishna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmti12.pfb><C:/Users/Hari Krishna/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (23 pages, 1155359 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 531 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 542 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 552 words of extra memory for PDF output out of 10000 (max. 10000000)
 

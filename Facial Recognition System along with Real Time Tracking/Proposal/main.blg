@@ -18,49 +18,49 @@ A level-1 auxiliary file: chapter/Implementation.aux
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: chapter/Outcomes.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
-The style file: alpha.bst
+The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: reference.bib
 Warning--empty booktitle in MuhammetAndDas
 You've used 7 entries,
-            2543 wiz_defined-function locations,
-            616 strings with 6266 characters,
-and the built_in function-call counts, 3544 in all, are:
-= -- 343
-> -- 191
+            2118 wiz_defined-function locations,
+            555 strings with 5822 characters,
+and the built_in function-call counts, 2898 in all, are:
+= -- 273
+> -- 141
 < -- 4
-+ -- 71
-- -- 70
-* -- 270
-:= -- 571
++ -- 56
+- -- 48
+* -- 212
+:= -- 458
 add.period$ -- 21
 call.type$ -- 7
-change.case$ -- 52
-chr.to.int$ -- 7
+change.case$ -- 45
+chr.to.int$ -- 0
 cite$ -- 8
-duplicate$ -- 133
-empty$ -- 242
-format.name$ -- 76
-if$ -- 735
-int.to.chr$ -- 1
-int.to.str$ -- 0
+duplicate$ -- 112
+empty$ -- 221
+format.name$ -- 48
+if$ -- 622
+int.to.chr$ -- 0
+int.to.str$ -- 7
 missing$ -- 7
-newline$ -- 39
-num.names$ -- 21
+newline$ -- 38
+num.names$ -- 14
 pop$ -- 50
 preamble$ -- 1
-purify$ -- 59
+purify$ -- 38
 quote$ -- 0
-skip$ -- 127
+skip$ -- 94
 stack$ -- 0
-substring$ -- 208
+substring$ -- 194
 swap$ -- 39
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 28
 warning$ -- 1
-while$ -- 29
-width$ -- 9
-write$ -- 92
+while$ -- 22
+width$ -- 8
+write$ -- 77
 (There was 1 warning)

@@ -25,41 +25,43 @@
 \contentsline {section}{\numberline {4.2}ALGORITHMS AND MODELS}{8}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Haar Cascades}{8}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Local Binary Patterns }{9}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Eigenfaces}{9}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Local Feature Analysis }{9}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Convolutional Neural Networks}{9}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Proposed System}{9}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Dataset Creation and Image Preprocessing}{10}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Face Detection}{10}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Face Recognition and Calculation}{10}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}DataBase}{11}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}System (or Project) Design and Architecture}{11}{section.4.4}%
-\contentsline {section}{\numberline {4.5}USE CASE DIAGRAM}{11}{section.4.5}%
-\contentsline {section}{\numberline {4.6}System Block}{12}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Sequence Diagram}{12}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Class Diagram}{13}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Implementation Plan}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Schedule(Gantt-Chart)}{14}{section.5.1}%
-\contentsline {section}{\numberline {5.2}SOFTWARE REQUIREMENT}{14}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Python}{14}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}OpenCV (Open Source Computer Vision Library)}{15}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}MySQL}{15}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Tensor Flow}{15}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}FUNCTIONAL REQUIREMENT}{15}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}User Registration}{15}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Face Detection}{15}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Face Recognition}{15}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Enrollment and Database Management}{16}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Real-time Monitoring}{16}{subsection.5.3.5}%
-\contentsline {section}{\numberline {5.4}NON-FUNCTIONAL REQUIREMENT}{16}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Performance}{16}{subsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {5.4.1.1}Response Time}{16}{subsubsection.5.4.1.1}%
-\contentsline {subsubsection}{\numberline {5.4.1.2}Throughput}{16}{subsubsection.5.4.1.2}%
-\contentsline {subsection}{\numberline {5.4.2}Scalabiity}{16}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Reliability}{16}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Availability}{16}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Security}{16}{subsection.5.4.5}%
-\contentsline {subsubsection}{\numberline {5.4.5.1}Data Security}{16}{subsubsection.5.4.5.1}%
-\contentsline {subsubsection}{\numberline {5.4.5.2}Access Control}{17}{subsubsection.5.4.5.2}%
-\contentsline {chapter}{\numberline {6}Expected Outcomes}{18}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusion}{18}{section.6.1}%
+\contentsline {subsection}{\numberline {4.2.3}OpenFace}{9}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}DeepID}{9}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Eigenfaces}{9}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Fisherfaces}{9}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Local Feature Analysis }{9}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Convolutional Neural Networks}{10}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}CSRT (Discriminative Correlation Filter with Channel and Spatial Reliability)}{10}{subsection.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.10}MTCNN (Multi-task Cascaded Convolutional Networks)}{10}{subsection.4.2.10}%
+\contentsline {subsection}{\numberline {4.2.11}KLT Tracker (Kanade-Lucas-Tomasi Tracker)}{10}{subsection.4.2.11}%
+\contentsline {subsection}{\numberline {4.2.12}Multiple Object Tracking Algorithms(MOT)}{10}{subsection.4.2.12}%
+\contentsline {section}{\numberline {4.3}Proposed System}{11}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Dataset Creation and Image Preprocessing}{11}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Face Detection}{12}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Face Recognition and Calculation}{12}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}DataBase}{12}{subsection.4.3.4}%
+\contentsline {chapter}{\numberline {5}Implementation Plan}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Schedule(Gantt-Chart)}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}SOFTWARE REQUIREMENT}{13}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Python}{13}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}OpenCV (Open Source Computer Vision Library)}{13}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}MySQL}{14}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Tensor Flow}{14}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}FUNCTIONAL REQUIREMENT}{14}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Face Detection}{14}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Face Recognition}{14}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Database Management}{14}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Real-time Monitoring}{14}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}NON-FUNCTIONAL REQUIREMENT}{15}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Performance}{15}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}Response Time}{15}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}Throughput}{15}{subsubsection.5.4.1.2}%
+\contentsline {subsection}{\numberline {5.4.2}Scalabiity}{15}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Reliability}{15}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Availability}{15}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Security}{15}{subsection.5.4.5}%
+\contentsline {subsubsection}{\numberline {5.4.5.1}Data Security}{15}{subsubsection.5.4.5.1}%
+\contentsline {subsubsection}{\numberline {5.4.5.2}Access Control}{15}{subsubsection.5.4.5.2}%
+\contentsline {chapter}{\numberline {6}Expected Outcomes}{16}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusion}{16}{section.6.1}%
+\contentsline {section}{Bibliography}{17}{chapter*.8}%

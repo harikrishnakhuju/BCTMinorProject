@@ -54,19 +54,35 @@ Facial recognition systems rely on various algorithms and models to accurately i
 \end{enumerate}
 
  \subsection{Local Binary Patterns }
-   \begin{itemize}
+   \begin{enumerate}
            \item Description: LBP is a texture descriptor that is often used for facial feature extraction. It focuses on local patterns of pixel intensities.
 \item Application: Feature extraction in facial recognition systems.
 
-   \end{itemize}
+   \end{enumerate}
 
+\subsection{OpenFace}
+\begin{enumerate}
+\item Description: An open-source facial behavior analysis toolkit that utilizes deep neural networks for facial feature representation.
+\item Application: Face recognition, facial landmark detection, and facial expression analysis.
+\end{enumerate}
 
+\subsection{DeepID}
+\begin{enumerate}
+\item Description: Utilizes deep convolutional neural networks to learn discriminative features for face identification.
+\item Application: Face recognition with a focus on handling variations in pose, lighting, and expression.
+\end{enumerate}
 
 \subsection{Eigenfaces}
 \begin{enumerate}
     \item Description: Eigenfaces is a facial recognition algorithm that uses Principal Component Analysis  to represent facial features in a lower-dimensional space
 \item Application: Recognizing faces based on principal components.
-\end{enumerate}.
+\end{enumerate}
+
+\subsection{Fisherfaces}
+\begin{enumerate}
+\item Description: A variation of eigenfaces that uses Linear Discriminant Analysis (LDA) to maximize class separability.
+\item Application: Enhanced face recognition performance.
+\end{enumerate}
 
 \subsection{Local Feature Analysis }
 \begin{enumerate}
@@ -80,6 +96,33 @@ Facial recognition systems rely on various algorithms and models to accurately i
 \item Application: State-of-the-art facial recognition, especially when dealing with large datasets and complex variations.
 \end{enumerate}
 
+\subsection{CSRT (Discriminative Correlation Filter with Channel and Spatial Reliability)}
+\begin{enumerate}
+\item Description: Integrates discriminative correlation filters with spatial and channel reliability to improve object tracking.
+\item Application: Real-time object tracking with improved accuracy.
+\end{enumerate}
+
+\subsection{MTCNN (Multi-task Cascaded Convolutional Networks)}
+\begin{enumerate}
+\item Description: Designed for real-time face detection and alignment, often used as an initial step in facial recognition systems.
+\item Application: Initial face detection before recognition.
+\end{enumerate}
+
+\subsection{KLT Tracker (Kanade-Lucas-Tomasi Tracker)}
+\begin{enumerate}
+\item Description:Feature-based tracking which utilizes corner points and features in an image to track objects by estimating their motion.
+Effective for tracking objects with consistent features. It is sensitive to variations in lighting and occlusions.
+\item Application: Generally fast and suitable for real-time tracking.
+\end{enumerate}
+
+\subsection{Multiple Object Tracking Algorithms(MOT)}
+\begin{enumerate}
+\item Description: MOT algorithms aim to track multiple objects simultaneously in a video sequence. Often involve a combination of detection, tracking, and association methods. Accuracy can be impacted by crowded scenes, similar appearance of objects, and variations in object size. Depending on the algorithm, real-time performance is achievable. Computational complexity may increase with the number of tracked objects.
+\item Application: Capable of handling scenarios with multiple objects and occlusions.
+Accuracy can be impacted by crowded scenes, similar appearance of objects, and variations in object size.
+\end{enumerate}
+
+
 \section{Proposed System}
 This system will be able to detect student or employee without physical contact and update the database based on the response from system.
 The  system  architecture  of  the  proposed  system  is  given below, 
@@ -87,7 +130,7 @@ The  system  architecture  of  the  proposed  system  is  given below,
 
 \begin{figure}[ht]
     \centering
-   % \includegraphics[scale=0.5]{Images/System-architecture-of-the-face-recognition-system (1).png}
+    \includegraphics[scale=0.5]{Image/System-architecture-of-the-face-recognition-system (1).png}
     \caption{System architecture of face recognition system}
     \label{fig:enter-label}
 \end{figure}
@@ -121,37 +164,6 @@ This classifier is designed specifically for detecting frontal faces in visual i
  Face recognizer  used  in  this  system  is  Local  Binary  Pattern Histogram. Initially, the list of local binary patterns (LBP) of entire  face  is  obtained.  These  LBPs  are  converted  into decimal  number  and  then  histograms  of  all  those  decimal values are made.  At the  end, one  histogram will  be formed for each images in the training data. Later, during recognition process histogram  of the  face to  be recognized  is calculated and then compared with the already computed histograms and returns the  best matched label associated .
 
  \subsection{DataBase}
- After face recogition process,Based on Calculated histogram Databases are updated .The name of employee or student along with day and time of
-attendance is also be stored in the database.
+ After face recogition process, based on Calculated histogram Databases are updated .The name of people along with address, gender, birthday and time of
+update is also be stored in the database.
 
-
-	\section{System (or Project) Design and Architecture}
-	    We developed a Facial Recognition Attendance System which takes Face image
-as its input and process it to provide the value of matching face as its output. Then, it take decision of present and absent person.
-        \section{USE CASE DIAGRAM}
-          \begin{figure}[hbt]
-		    \centering
-%		      \includegraphics[scale=0.3]{Image/UseCaseDiagram.jpg}
-			    \caption{System Use Case Diagram}
-			\end{figure}
-			\newpage
-        \section{System Block}
-        	\begin{figure}[h]
-		    \centering
-	%		    \includegraphics[scale=0.5]{Image/BlockDiagram.jpg}
-			    \caption{System Block Diagram}
-			\end{figure}
-			
-   \section{Sequence Diagram}
-       \begin{figure}[hbt]
-		    \center
-		%	    \includegraphics[scale=0.5]{Image/SequenceDiagram1.png}
-			    \caption{Sequence Diagram}
-		\end{figure}
-\newpage
-   \section{Class Diagram}
-       \begin{figure}[hbt]
-		    \centering
-			%    \includegraphics[scale=0.5]{Image/classdiagram.jpg}
-			    \caption{Class Diagram}
-		\end{figure}
