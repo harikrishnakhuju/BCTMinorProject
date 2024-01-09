@@ -3,14 +3,11 @@
 Aniterative and incremental software development approach, such as Agile method
 ology, can be adopted. Agile methodologies emphasize flexibility, collaboration,
 and iterative development, which align well with the nature of the project and its
-potential changes and refinements.\\
-
+potential changes and refinements.
 \subsection{Agile Methodology}
-Agile development is a flexible and iterative approach to software development that prioritizes adaptability and collaboration. It emphasizes delivering small, incremental releases of a product with the goal of responding quickly to changing requirements and feedback. Agile methodologies are based on the Agile Manifesto, which values individuals and interactions, working solutions, customer collaboration, and responding to change over rigid processes and tools.\\
-
+Agile development is a flexible and iterative approach to software development that prioritizes adaptability and collaboration. It emphasizes delivering small, incremental releases of a product with the goal of responding quickly to changing requirements and feedback. Agile methodologies are based on the Agile Manifesto, which values individuals and interactions, working solutions, customer collaboration, and responding to change over rigid processes and tools.
 The Agile development process is typically organized into iterations or sprints, each of which includes the following key steps:\\
 \begin{itemize}
-
   \item \textbf{Requirements}:
         In Agile, requirements are expressed as user stories, which are short descriptions of a feature told from the perspective of the end user.
         Typically, the product owner collaborates with stakeholders to define and prioritize user stories, which in our case, are the objectives and highlights of the problem statement. These stories are added to the product backlog.
@@ -41,15 +38,12 @@ The Agile development process is typically organized into iterations or sprints,
 \end{itemize}
 
 It's important to note that the design, development, testing, deployment, review, and launch steps occur iteratively and multiple times throughout the project. Agile development promotes continuous improvement and adaptation to changing requirements, allowing teams to deliver value to users more frequently and efficiently.\\
-
-    
-        \section{ALGORITHMS AND MODELS}
-        
+ \section{ALGORITHMS AND MODELS}        
 Facial recognition systems rely on various algorithms and models to accurately identify and verify individuals based on facial features. Here are some common algorithms and models used in facial recognition systems:
 
 \subsection{Haar Cascades}
 \begin{enumerate}
-    \item Description: Haar Cascades is an object detection algorithm used for identifying faces in images or video streams. It works by training on positive and negative images to create a classifier.
+    \item Description: Haar Cascades is an object detection algorithm used for identifying faces in images or video streams with accuracy of 80\% - 95\%. It works by training on positive and negative images to create a classifier.
 \item Application: Initial face detection before more detailed analysis.
 \end{enumerate}
 
@@ -60,10 +54,10 @@ Facial recognition systems rely on various algorithms and models to accurately i
 
    \end{enumerate}
 
-\subsection{OpenFace}
+\subsection{FaceNet}
 \begin{enumerate}
-\item Description: An open-source facial behavior analysis toolkit that utilizes deep neural networks for facial feature representation.
-\item Application: Face recognition, facial landmark detection, and facial expression analysis.
+\item Description: FaceNet is a deep learning model for face recognition that maps faces into a high-dimensional embedding space having accuracy of 99\%.
+\item Key Features: It uses a triplet loss function during training to ensure that embeddings of the same person are close together, while embeddings of different people are far apart.
 \end{enumerate}
 
 \subsection{DeepID}
@@ -72,39 +66,22 @@ Facial recognition systems rely on various algorithms and models to accurately i
 \item Application: Face recognition with a focus on handling variations in pose, lighting, and expression.
 \end{enumerate}
 
-\subsection{Eigenfaces}
-\begin{enumerate}
-    \item Description: Eigenfaces is a facial recognition algorithm that uses Principal Component Analysis  to represent facial features in a lower-dimensional space
-\item Application: Recognizing faces based on principal components.
-\end{enumerate}
-
 \subsection{Fisherfaces}
 \begin{enumerate}
 \item Description: A variation of eigenfaces that uses Linear Discriminant Analysis (LDA) to maximize class separability.
 \item Application: Enhanced face recognition performance.
 \end{enumerate}
 
-\subsection{Local Feature Analysis }
-\begin{enumerate}
-    \item Description: LFA focuses on extracting local features, considering facial regions independently. It enhances robustness against variations.
-    \item Application: Effective in handling facial variations due to expressions, pose, and lighting.
-\end{enumerate}
-
 \subsection{Convolutional Neural Networks}
 \begin{enumerate}
-    \item Description: CNNs are deep learning models that automatically learn hierarchical features from raw pixel data. They excel at capturing spatial hierarchies in images.
+    \item Description: CNNs are deep learning models that automatically learn hierarchical features from raw pixel data with accuracy of 95\% - 99\%. They excel at capturing spatial hierarchies in images.
 \item Application: State-of-the-art facial recognition, especially when dealing with large datasets and complex variations.
 \end{enumerate}
 
-\subsection{CSRT (Discriminative Correlation Filter with Channel and Spatial Reliability)}
-\begin{enumerate}
-\item Description: Integrates discriminative correlation filters with spatial and channel reliability to improve object tracking.
-\item Application: Real-time object tracking with improved accuracy.
-\end{enumerate}
 
 \subsection{MTCNN (Multi-task Cascaded Convolutional Networks)}
 \begin{enumerate}
-\item Description: Designed for real-time face detection and alignment, often used as an initial step in facial recognition systems.
+\item Description: Designed for real-time face detection and alignment, often used as an initial step in facial recognition systems with accuracy exceeding 95\%.
 \item Application: Initial face detection before recognition.
 \end{enumerate}
 
@@ -122,7 +99,22 @@ Effective for tracking objects with consistent features. It is sensitive to vari
 Accuracy can be impacted by crowded scenes, similar appearance of objects, and variations in object size.
 \end{enumerate}
 
+\subsection{CSRT (Discriminative Correlation Filter with Channel and Spatial Reliability)}
+\begin{enumerate}
+\item Description: Integrates discriminative correlation filters with spatial and channel reliability to improve object tracking.
+\item Application: Real-time object tracking with improved accuracy.
+\end{enumerate}
+\subsection{Tracking Algorithm}
+\begin{enumerate}
+\item \textbf{kalman filter}\\ 
+Kalman Filter is effective for tracking objects with linear motion and predictable trajectories.Computationally efficient and suitable for real-time applications.Can handle noisy measurements and predictions. 
+\item\textbf{Correlation Filter Tracking}\\ 
+it's computationally efficient and suitable for real-time tracking.Can handle scale variations, rotations, and partial occlusions.Effective for short-term tracking scenarios. 
+\item\textbf{DeepSORT(Deep Simple Online and Real-Time Tracking)}\\
+IT integrates deep features for improved tracking accuracy.Effective in maintaining consistent track identities across frames.Suitable for scenarios with occlusions and appearance changes.  
+\end{enumerate}
 
+\newpage
 \section{Proposed System}
 This system will be able to detect student or employee without physical contact and update the database based on the response from system.
 The  system  architecture  of  the  proposed  system  is  given below, 
@@ -130,9 +122,8 @@ The  system  architecture  of  the  proposed  system  is  given below,
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.5]{Image/System-architecture-of-the-face-recognition-system (1).png}
-    \caption{System architecture of face recognition system}
-    \label{fig:enter-label}
+    \includegraphics[scale=0.5]{Image/System Block Diagram.png}
+    \caption{System Block Diagram}
 \end{figure}
 
   \subsection{Dataset Creation and Image Preprocessing}
@@ -163,7 +154,35 @@ This classifier is designed specifically for detecting frontal faces in visual i
 \subsection{Face Recognition and Calculation}
  Face recognizer  used  in  this  system  is  Local  Binary  Pattern Histogram. Initially, the list of local binary patterns (LBP) of entire  face  is  obtained.  These  LBPs  are  converted  into decimal  number  and  then  histograms  of  all  those  decimal values are made.  At the  end, one  histogram will  be formed for each images in the training data. Later, during recognition process histogram  of the  face to  be recognized  is calculated and then compared with the already computed histograms and returns the  best matched label associated .
 
+ \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.5]{Image/System-architecture-of-the-face-recognition-system (1).png}
+    \caption{System architecture of face recognition system}
+\end{figure}
+
  \subsection{DataBase}
  After face recogition process, based on Calculated histogram Databases are updated .The name of people along with address, gender, birthday and time of
 update is also be stored in the database.
 
+\subsection{Real-Time Tracking}
+ The triplet loss is particularly effective for training on face recognition tasks. The basic idea is to have triplets of images: an anchor image (A), a positive image (P) of the same person as the anchor, and a negative image (N) of a different person.
+
+The triplet loss function is defined as follows:\\
+$$ L(A, P, N) = \max\left(0, \left\|f(A) - f(P)\right\|^2 - \left\|f(A) - f(N)\right\|^2 + \alpha\right)$$
+Here:\\
+$ f(\cdot) $ represents the embedding function (the output of the neural network for a given input).\\
+ $ \left\| \cdot \right\|^2 $ denotes the squared Euclidean norm.\\
+ $\alpha$ is a margin that ensures the positive pair should be closer by at least this margin than the negative pair.\\
+In other words, the loss encourages the distance between the anchor and positive embeddings to be smaller than the distance between the anchor and negative embeddings by at least the margin 
+$\alpha$. If this condition is not satisfied, the loss becomes non-zero, and the network is updated to improve the embeddings.
+
+
+\begin{figure}[h]
+    \includegraphics[width=15cm]{Image/facenetarchitecture.png}
+    \caption{FaceNet Architecture}
+\end{figure}
+
+\begin{figure}[h]
+    \includegraphics[width=15cm]{Image/facenetTripletloss.png}
+    \caption{Triplet Loss}
+\end{figure}

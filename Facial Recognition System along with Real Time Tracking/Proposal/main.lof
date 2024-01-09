@@ -2,7 +2,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces System architecture of face recognition system}}{11}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces System Block Diagram}}{11}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces System architecture of face recognition system}}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces FaceNet Architecture}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Triplet Loss}}{13}{figure.caption.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Gantt Chart}}{13}{figure.caption.7}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Gantt Chart}}{14}{figure.caption.10}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces face recognition output}}{17}{figure.caption.11}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces multiPerson-Tracking}}{18}{figure.caption.12}%

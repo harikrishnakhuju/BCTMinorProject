@@ -2,27 +2,30 @@
 The users can interact with the
 system using a GUI. This method will
 have higher accuracy in recognition of multiple faces from
-a single frame with lower response time.\\
-
-    \begin{tabular}{|p{1cm}|p{3cm}|p{4cm}| }
-        \hline
-        S.N. & Model  & Testing Accuracy \\
-        \hline
-        1. & Support Vector Machines (SVMs & 87\% \\
-        \hline
-        2. & Multilayer Perception (MLP)  & 86.5\%  \\
-        \hline
-        3. & Convolutional Neural Network(CNN) & 98\%  \\
-        \hline
-      
-    \end{tabular}\\
-    
-   	The best model was found to be with Convolutional Neural Network(CNN) testing accuracy 98\%. Other models performed worse than this model is due to,CNN functions automatically as a feature extractor, whereas ML algorithms function as a classifier After building the basic CNN model we tried to increase its accuracy by  combining 2D and 3D face recognition techniques, or using different machine learning algorithms to recognize faces more accurately.  
+a single frame with lower response time.\\    
+   	The best model was found to be with FaceNet having testing accuracy exceed 99\%. Other models performed less than this model is due to, FaceNet is a state-of-the-art face recognition system that leverages deep learning techniques, specifically Convolutional Neural Networks (CNNs), to map facial features into a high-dimensional space called an embedding
  Other problem is to detect high variability of human faces in terms of shape, size, pose, expression, illumination, occlusion, and makeup.
-Haar Classifier technique can be adapted to accurately detect facial features. However, the area of the image being analyzed for a facial feature needs to be regionalized.
+FaceNet uses a triplet loss function during training. The loss is computed based on triplets of images: an anchor image of a face, a positive image of the same face (from a different view or under different lighting conditions), and a negative image of a different face.
+Other model are MTCNN(Multi-task Cascaded Convolutional Networks)  and CNN(Convolutional Neural Network) is known for its efficiency and accuracy in face detection tasks.
 
+\begin{figure}[h]
+\begin{center}
+	\includegraphics[scale=0.3]{Image/face-recognition-output.jpg}
+    \caption{face recognition output}
+\end{center}
+\end{figure}
+\newpage
+
+However, all above models have high accuracy in facial recognition, for face tracking we can integrate tracking algorithm mention above. we like to go for Correlation Filter Tracking which is best for real time tracking with high performance when combine with MTCNN, FaceNet and CNN facial recognition models.
+      
+\begin{figure}[h]
+	\begin{center}
+	\includegraphics[scale=0.3]{Image/multiPerson-Tracking.jpg}
+	\caption{multiPerson-Tracking}
+	\end{center}
+	
+\end{figure}
 
 \section{Conclusion}
-The implementation of a Facial Recognition Attendance System using OpenCV aligns with technological advancements, offering a more accurate and efficient solution for attendance tracking. This proposal lays the foundation for a robust system that addresses the current challenges in attendance management.
-
+The implementation of a Facial Recognition Along With Real-Time Tracking aligns with technological advancements, offering a more accurate and efficient solution for Facial tracking of person. This proposal lays the foundation for a robust system that addresses the current challenges in security surveillance with very high accuracy of recognition and tracking. 
 \pagebreak
